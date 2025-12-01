@@ -1,7 +1,11 @@
 streamlit
-ultralytics
-opencv-python-headless==4.8.1.78
-pillow
+ultralytics==8.2.54
+opencv-python-headless
 numpy
-torch
-torchvision
+pillow
+
+# torch CPU 版本（必须放在最后）
+torch==2.1.2+cpu
+torchvision==0.16.2+cpu
+torchaudio==2.1.2+cpu
+-f https://download.pytorch.org/whl/cpu
